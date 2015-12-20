@@ -1,0 +1,60 @@
+table *, label
+{
+   font-size: 1em !important;
+   color: #FFF !important;
+   font-family: Arial !important;
+}
+
+form{
+	margin-top: 0px;
+	background-color: #557799;
+}
+
+form * {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+
+h4 {
+	font-size: 1em !important;
+	color: #FFF !important;
+	font-family: Arial !important;
+	color: red;
+	background-color: #AAAAAA;
+	margin-bottom: 0px;
+}
+
+div#dock {
+	position:fixed;
+	left: 0px;
+	bottom: 0px;
+	top: 0px;
+	width: 400px;
+	background-color: #448888;
+}
+
+div#main {
+	margin-left: 400px;
+	margin-top: 0px;	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #557799;
+	
+}
+
+tr.head * {
+	font-weight: bold;
+}
+
+table#book td, table#book th{
+	border: 2px solid #DDDDFF;
+	text-align:center; 
+    	vertical-align:middle;
+	padding: 5px;
+}
+
+table#book {
+	margin: auto;
+	border-collapse: collapse;
+}

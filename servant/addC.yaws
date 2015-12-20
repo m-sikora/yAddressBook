@@ -1,0 +1,9 @@
+<html>
+<body>
+	<p>addC</p>
+	<erl>
+	out(Arg) ->
+		srv:parseAddContact(yaws_api:parse_post(Arg)).
+	</erl>
+</body>
+</html>

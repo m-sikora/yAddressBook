@@ -1,0 +1,15 @@
+<html>
+<head>
+	<link rel="stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+	<erl>
+		out(Arg) ->
+			srv:renderBook().
+	</erl>
+	<erl>
+		out(Arg) ->
+			srv:renderDock().
+	</erl>
+</body>
+</html>

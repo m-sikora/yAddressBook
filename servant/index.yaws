@@ -1,0 +1,14 @@
+<html>
+<head>
+	<link rel="stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+	<h4>jj</h4>
+	<erl>
+		out(Arg) ->
+			srv:start_link(),
+			{html, "eh"}.
+	</erl>
+	<a href="get.yaws">get</a>
+</body>
+</html>

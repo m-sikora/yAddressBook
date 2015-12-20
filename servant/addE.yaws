@@ -1,0 +1,9 @@
+<html>
+<body>
+	<p>addE</p>
+	<erl>
+	out(Arg) ->
+		srv:parseAddEmail(yaws_api:parse_post(Arg)).
+	</erl>
+</body>
+</html>
